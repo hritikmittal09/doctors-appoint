@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/hello-monorepo-e2e"
+    },
+    {
+      "path": "./apps/hello-monorepo"
+    },
+    {
+      "path": "./apps/web-frontend-e2e"
+    },
+    {
+      "path": "./apps/web-frontend"
+    }
+  ]
+}

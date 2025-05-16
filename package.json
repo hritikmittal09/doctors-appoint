@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@nx/next": "^21.0.3"
+  }
+}
