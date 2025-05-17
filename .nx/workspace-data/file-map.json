@@ -117,11 +117,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "10000877666976164918"
+        "hash": "8479272193095432723"
       },
       {
         "file": "package.json",
-        "hash": "1009777432667748800"
+        "hash": "15463045160619972942"
       },
       {
         "file": "tsconfig.base.json",
@@ -133,6 +133,186 @@
       }
     ],
     "projectFileMap": {
+      "@hello-monorepo/web-frontend-e2e": [
+        {
+          "file": "apps/web-frontend-e2e/cypress.config.ts",
+          "hash": "852422891310827211",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/web-frontend-e2e/eslint.config.mjs",
+          "hash": "3599541132905828811",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/web-frontend-e2e/package.json",
+          "hash": "694516701026495398"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "12454600462021488371"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/fixtures/example.json",
+          "hash": "13882982864087580737"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/commands.ts",
+          "hash": "6034007119807233486"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/e2e.ts",
+          "hash": "14369563060992369541"
+        },
+        {
+          "file": "apps/web-frontend-e2e/tsconfig.json",
+          "hash": "168887157171126392"
+        }
+      ],
+      "web-api-e2e": [
+        {
+          "file": "apps/web-api-e2e/eslint.config.js",
+          "hash": "17290109301117894707"
+        },
+        {
+          "file": "apps/web-api-e2e/jest.config.ts",
+          "hash": "16757259306549310892"
+        },
+        {
+          "file": "apps/web-api-e2e/project.json",
+          "hash": "6181328033579951040"
+        },
+        {
+          "file": "apps/web-api-e2e/src/support/global-setup.ts",
+          "hash": "18221119270488052961"
+        },
+        {
+          "file": "apps/web-api-e2e/src/support/global-teardown.ts",
+          "hash": "17927034305001160425"
+        },
+        {
+          "file": "apps/web-api-e2e/src/support/test-setup.ts",
+          "hash": "4165311015569872896",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/web-api-e2e/src/web-api/web-api.spec.ts",
+          "hash": "6988925255182087386",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/web-api-e2e/tsconfig.json",
+          "hash": "1422418700492434985"
+        },
+        {
+          "file": "apps/web-api-e2e/tsconfig.spec.json",
+          "hash": "5623794208198348967"
+        }
+      ],
+      "hello-monorepo": [
+        {
+          "file": "apps/hello-monorepo/.swcrc",
+          "hash": "14363985528461528173"
+        },
+        {
+          "file": "apps/hello-monorepo/eslint.config.mjs",
+          "hash": "377204025717851033",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/index.d.ts",
+          "hash": "17021007320214501298"
+        },
+        {
+          "file": "apps/hello-monorepo/jest.config.ts",
+          "hash": "2241213308677943783"
+        },
+        {
+          "file": "apps/hello-monorepo/next-env.d.ts",
+          "hash": "570608923005160694"
+        },
+        {
+          "file": "apps/hello-monorepo/next.config.js",
+          "hash": "7869542326923865401",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/package.json",
+          "hash": "3294223898248677667",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/postcss.config.js",
+          "hash": "15486281244187232437"
+        },
+        {
+          "file": "apps/hello-monorepo/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/hello-monorepo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/hello-monorepo/specs/index.spec.tsx",
+          "hash": "15161445121835758611",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/_app.tsx",
+          "hash": "12656796633428571897",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/index.tsx",
+          "hash": "6392783325804598716"
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/styles.css",
+          "hash": "8773455272348035212"
+        },
+        {
+          "file": "apps/hello-monorepo/tailwind.config.js",
+          "hash": "2640595146937007306"
+        },
+        {
+          "file": "apps/hello-monorepo/tsconfig.json",
+          "hash": "2960697332233649643"
+        },
+        {
+          "file": "apps/hello-monorepo/tsconfig.spec.json",
+          "hash": "2535091835699275403"
+        }
+      ],
       "@hello-monorepo/web-frontend": [
         {
           "file": "apps/web-frontend/.swcrc",
@@ -307,97 +487,6 @@
           ]
         }
       ],
-      "hello-monorepo": [
-        {
-          "file": "apps/hello-monorepo/.swcrc",
-          "hash": "14363985528461528173"
-        },
-        {
-          "file": "apps/hello-monorepo/eslint.config.mjs",
-          "hash": "377204025717851033",
-          "deps": [
-            "npm:@eslint/eslintrc",
-            "npm:@eslint/js",
-            "npm:@eslint/compat",
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/index.d.ts",
-          "hash": "17021007320214501298"
-        },
-        {
-          "file": "apps/hello-monorepo/jest.config.ts",
-          "hash": "2241213308677943783"
-        },
-        {
-          "file": "apps/hello-monorepo/next-env.d.ts",
-          "hash": "570608923005160694"
-        },
-        {
-          "file": "apps/hello-monorepo/next.config.js",
-          "hash": "7869542326923865401",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/package.json",
-          "hash": "3294223898248677667",
-          "deps": [
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/postcss.config.js",
-          "hash": "15486281244187232437"
-        },
-        {
-          "file": "apps/hello-monorepo/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/hello-monorepo/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/hello-monorepo/specs/index.spec.tsx",
-          "hash": "15161445121835758611",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/_app.tsx",
-          "hash": "12656796633428571897",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/index.tsx",
-          "hash": "6392783325804598716"
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/styles.css",
-          "hash": "8773455272348035212"
-        },
-        {
-          "file": "apps/hello-monorepo/tailwind.config.js",
-          "hash": "2640595146937007306"
-        },
-        {
-          "file": "apps/hello-monorepo/tsconfig.json",
-          "hash": "2960697332233649643"
-        },
-        {
-          "file": "apps/hello-monorepo/tsconfig.spec.json",
-          "hash": "2535091835699275403"
-        }
-      ],
       "hello-monorepo-e2e": [
         {
           "file": "apps/hello-monorepo-e2e/cypress.config.ts",
@@ -441,95 +530,6 @@
         {
           "file": "apps/hello-monorepo-e2e/tsconfig.json",
           "hash": "1227863728543114460"
-        }
-      ],
-      "web-api-e2e": [
-        {
-          "file": "apps/web-api-e2e/eslint.config.js",
-          "hash": "17290109301117894707"
-        },
-        {
-          "file": "apps/web-api-e2e/jest.config.ts",
-          "hash": "16757259306549310892"
-        },
-        {
-          "file": "apps/web-api-e2e/project.json",
-          "hash": "6181328033579951040"
-        },
-        {
-          "file": "apps/web-api-e2e/src/support/global-setup.ts",
-          "hash": "18221119270488052961"
-        },
-        {
-          "file": "apps/web-api-e2e/src/support/global-teardown.ts",
-          "hash": "17927034305001160425"
-        },
-        {
-          "file": "apps/web-api-e2e/src/support/test-setup.ts",
-          "hash": "4165311015569872896",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/web-api-e2e/src/web-api/web-api.spec.ts",
-          "hash": "6988925255182087386",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "apps/web-api-e2e/tsconfig.json",
-          "hash": "1422418700492434985"
-        },
-        {
-          "file": "apps/web-api-e2e/tsconfig.spec.json",
-          "hash": "5623794208198348967"
-        }
-      ],
-      "@hello-monorepo/web-frontend-e2e": [
-        {
-          "file": "apps/web-frontend-e2e/cypress.config.ts",
-          "hash": "852422891310827211",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/web-frontend-e2e/eslint.config.mjs",
-          "hash": "3599541132905828811",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/web-frontend-e2e/package.json",
-          "hash": "694516701026495398"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "12454600462021488371"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/fixtures/example.json",
-          "hash": "13882982864087580737"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/app.po.ts",
-          "hash": "5364106453863571025"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/commands.ts",
-          "hash": "6034007119807233486"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/e2e.ts",
-          "hash": "14369563060992369541"
-        },
-        {
-          "file": "apps/web-frontend-e2e/tsconfig.json",
-          "hash": "168887157171126392"
         }
       ]
     }

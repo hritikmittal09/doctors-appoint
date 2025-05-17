@@ -17,19 +17,7 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/**/*.ts",
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/cypress.config.ts",
-              "{projectRoot}/**/*.cy.ts",
-              "{projectRoot}/**/*.cy.tsx",
-              "{projectRoot}/**/*.cy.js",
-              "{projectRoot}/**/*.cy.jsx",
-              "{projectRoot}/**/*.d.ts",
-              "!{projectRoot}/out-tsc",
-              "!{projectRoot}/test-output",
+              "production",
               "^production",
               {
                 "externalDependencies": [
@@ -305,22 +293,7 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/**/*.ts",
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/cypress.config.ts",
-              "{projectRoot}/**/*.cy.ts",
-              "{projectRoot}/**/*.cy.tsx",
-              "{projectRoot}/**/*.cy.js",
-              "{projectRoot}/**/*.cy.jsx",
-              "{projectRoot}/**/*.d.ts",
-              "!{projectRoot}/out-tsc",
-              "!{projectRoot}/test-output",
-              "!{projectRoot}/eslint.config.js",
-              "!{projectRoot}/eslint.config.cjs",
-              "!{projectRoot}/eslint.config.mjs",
+              "production",
               "^production",
               {
                 "externalDependencies": [
@@ -971,16 +944,30 @@
             "cache": true,
             "inputs": [
               "production",
-              {
-                "dependentTasksOutputFiles": "**/*.d.ts"
-              },
+              "^production",
               {
                 "externalDependencies": [
                   "typescript"
                 ]
               }
             ],
-            "outputs": [],
+            "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
+            ],
             "syncGenerators": [
               "@nx/js:typescript-sync"
             ],
@@ -1083,16 +1070,30 @@
             "cache": true,
             "inputs": [
               "production",
-              {
-                "dependentTasksOutputFiles": "**/*.d.ts"
-              },
+              "^production",
               {
                 "externalDependencies": [
                   "typescript"
                 ]
               }
             ],
-            "outputs": [],
+            "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
+              "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
+              "{workspaceRoot}/dist/out-tsc/tsconfig.tsbuildinfo"
+            ],
             "syncGenerators": [
               "@nx/js:typescript-sync"
             ],
@@ -40404,5 +40405,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1747400494586
+  "computedAt": 1747486473901
 }
