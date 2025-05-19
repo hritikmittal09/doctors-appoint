@@ -72,6 +72,14 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "jest.config.ts",
+        "hash": "9882362695153092473"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3237185977036824444"
+      },
+      {
         "file": ".vscode/extensions.json",
         "hash": "5271629927757201771"
       },
@@ -80,36 +88,28 @@
         "hash": "11497152232851182058"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "3237185977036824444"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "2336928227630864641"
-      },
-      {
         "file": ".prettierignore",
         "hash": "17085498363870782104"
       },
       {
-        "file": "package.json",
-        "hash": "12337516365856364818"
-      },
-      {
-        "file": "README.md",
-        "hash": "3885768571704366247"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "9882362695153092473"
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
       },
       {
         "file": "package-lock.json",
         "hash": "8479272193095432723"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
+        "file": "eslint.config.mjs",
+        "hash": "2336928227630864641"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "3535604748181344684"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
       },
       {
         "file": "tsconfig.json",
@@ -120,110 +120,19 @@
         "hash": "11025232050410716590"
       },
       {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "3535604748181344684"
+        "file": "README.md",
+        "hash": "3885768571704366247"
       },
       {
         "file": ".prettierrc",
         "hash": "6820402234827505055"
+      },
+      {
+        "file": "package.json",
+        "hash": "12337516365856364818"
       }
     ],
     "projectFileMap": {
-      "hello-monorepo": [
-        {
-          "file": "apps/hello-monorepo/.swcrc",
-          "hash": "14363985528461528173"
-        },
-        {
-          "file": "apps/hello-monorepo/eslint.config.mjs",
-          "hash": "377204025717851033",
-          "deps": [
-            "npm:@eslint/eslintrc",
-            "npm:@eslint/js",
-            "npm:@eslint/compat",
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/index.d.ts",
-          "hash": "17021007320214501298"
-        },
-        {
-          "file": "apps/hello-monorepo/jest.config.ts",
-          "hash": "2241213308677943783"
-        },
-        {
-          "file": "apps/hello-monorepo/next-env.d.ts",
-          "hash": "570608923005160694"
-        },
-        {
-          "file": "apps/hello-monorepo/next.config.js",
-          "hash": "7869542326923865401",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/package.json",
-          "hash": "3294223898248677667",
-          "deps": [
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/postcss.config.js",
-          "hash": "15486281244187232437"
-        },
-        {
-          "file": "apps/hello-monorepo/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/hello-monorepo/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/hello-monorepo/specs/index.spec.tsx",
-          "hash": "15161445121835758611",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/_app.tsx",
-          "hash": "12656796633428571897",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/index.tsx",
-          "hash": "6392783325804598716"
-        },
-        {
-          "file": "apps/hello-monorepo/src/pages/styles.css",
-          "hash": "8773455272348035212"
-        },
-        {
-          "file": "apps/hello-monorepo/tailwind.config.js",
-          "hash": "2640595146937007306"
-        },
-        {
-          "file": "apps/hello-monorepo/tsconfig.json",
-          "hash": "2960697332233649643"
-        },
-        {
-          "file": "apps/hello-monorepo/tsconfig.spec.json",
-          "hash": "2535091835699275403"
-        }
-      ],
       "web-api-e2e": [
         {
           "file": "apps/web-api-e2e/eslint.config.js",
@@ -266,100 +175,6 @@
         {
           "file": "apps/web-api-e2e/tsconfig.spec.json",
           "hash": "5623794208198348967"
-        }
-      ],
-      "@hello-monorepo/web-frontend": [
-        {
-          "file": "apps/web-frontend/.swcrc",
-          "hash": "14363985528461528173"
-        },
-        {
-          "file": "apps/web-frontend/eslint.config.mjs",
-          "hash": "377204025717851033",
-          "deps": [
-            "npm:@eslint/eslintrc",
-            "npm:@eslint/js",
-            "npm:@eslint/compat",
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/index.d.ts",
-          "hash": "17021007320214501298"
-        },
-        {
-          "file": "apps/web-frontend/jest.config.ts",
-          "hash": "14823745331285782522"
-        },
-        {
-          "file": "apps/web-frontend/next-env.d.ts",
-          "hash": "570608923005160694"
-        },
-        {
-          "file": "apps/web-frontend/next.config.js",
-          "hash": "7869542326923865401",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/package.json",
-          "hash": "6533028790327762530",
-          "deps": [
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/postcss.config.js",
-          "hash": "15486281244187232437"
-        },
-        {
-          "file": "apps/web-frontend/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/web-frontend/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/web-frontend/specs/index.spec.tsx",
-          "hash": "15161445121835758611",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/src/pages/_app.tsx",
-          "hash": "18054462441784642045",
-          "deps": [
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/src/pages/index.tsx",
-          "hash": "7716038490525914297",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/web-frontend/src/pages/styles.css",
-          "hash": "8773455272348035212"
-        },
-        {
-          "file": "apps/web-frontend/tailwind.config.js",
-          "hash": "2640595146937007306"
-        },
-        {
-          "file": "apps/web-frontend/tsconfig.json",
-          "hash": "15644811787164073566"
-        },
-        {
-          "file": "apps/web-frontend/tsconfig.spec.json",
-          "hash": "2535091835699275403"
         }
       ],
       "hello-monorepo-e2e": [
@@ -530,6 +345,191 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "@hello-monorepo/web-frontend": [
+        {
+          "file": "apps/web-frontend/.swcrc",
+          "hash": "14363985528461528173"
+        },
+        {
+          "file": "apps/web-frontend/eslint.config.mjs",
+          "hash": "377204025717851033",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/index.d.ts",
+          "hash": "17021007320214501298"
+        },
+        {
+          "file": "apps/web-frontend/jest.config.ts",
+          "hash": "14823745331285782522"
+        },
+        {
+          "file": "apps/web-frontend/next-env.d.ts",
+          "hash": "570608923005160694"
+        },
+        {
+          "file": "apps/web-frontend/next.config.js",
+          "hash": "7869542326923865401",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/package.json",
+          "hash": "3022706265147154459",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/postcss.config.js",
+          "hash": "15486281244187232437"
+        },
+        {
+          "file": "apps/web-frontend/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/web-frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/web-frontend/specs/index.spec.tsx",
+          "hash": "15161445121835758611",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/src/pages/_app.tsx",
+          "hash": "18054462441784642045",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/src/pages/index.tsx",
+          "hash": "7716038490525914297",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web-frontend/src/pages/styles.css",
+          "hash": "8773455272348035212"
+        },
+        {
+          "file": "apps/web-frontend/tailwind.config.js",
+          "hash": "2640595146937007306"
+        },
+        {
+          "file": "apps/web-frontend/tsconfig.json",
+          "hash": "15644811787164073566"
+        },
+        {
+          "file": "apps/web-frontend/tsconfig.spec.json",
+          "hash": "2535091835699275403"
+        }
+      ],
+      "hello-monorepo": [
+        {
+          "file": "apps/hello-monorepo/.swcrc",
+          "hash": "14363985528461528173"
+        },
+        {
+          "file": "apps/hello-monorepo/eslint.config.mjs",
+          "hash": "377204025717851033",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/index.d.ts",
+          "hash": "17021007320214501298"
+        },
+        {
+          "file": "apps/hello-monorepo/jest.config.ts",
+          "hash": "2241213308677943783"
+        },
+        {
+          "file": "apps/hello-monorepo/next-env.d.ts",
+          "hash": "570608923005160694"
+        },
+        {
+          "file": "apps/hello-monorepo/next.config.js",
+          "hash": "7869542326923865401",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/package.json",
+          "hash": "3294223898248677667",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/postcss.config.js",
+          "hash": "15486281244187232437"
+        },
+        {
+          "file": "apps/hello-monorepo/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/hello-monorepo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/hello-monorepo/specs/index.spec.tsx",
+          "hash": "15161445121835758611",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/_app.tsx",
+          "hash": "12656796633428571897",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/index.tsx",
+          "hash": "6392783325804598716"
+        },
+        {
+          "file": "apps/hello-monorepo/src/pages/styles.css",
+          "hash": "8773455272348035212"
+        },
+        {
+          "file": "apps/hello-monorepo/tailwind.config.js",
+          "hash": "2640595146937007306"
+        },
+        {
+          "file": "apps/hello-monorepo/tsconfig.json",
+          "hash": "2960697332233649643"
+        },
+        {
+          "file": "apps/hello-monorepo/tsconfig.spec.json",
+          "hash": "2535091835699275403"
         }
       ]
     }

@@ -768,13 +768,14 @@
             "parallelism": true
           },
           "start": {
-            "executor": "nx:run-script",
+            "continuous": true,
+            "dependsOn": [
+              "build"
+            ],
+            "executor": "nx:run-commands",
             "options": {
-              "script": "start"
-            },
-            "metadata": {
-              "scriptContent": "next start -p $PORT",
-              "runCommand": "npm run start"
+              "cwd": "apps/web-frontend",
+              "command": "next start"
             },
             "configurations": {},
             "parallelism": true
@@ -903,8 +904,7 @@
         "metadata": {
           "targetGroups": {
             "NPM Scripts": [
-              "build",
-              "start"
+              "build"
             ]
           },
           "js": {
@@ -40394,5 +40394,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1747644189624
+  "computedAt": 1747656998894
 }
