@@ -1834,34 +1834,6 @@
       "apps/web-frontend/next.config.js",
       "@nx/next/plugin"
     ],
-    "targets.start": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.continuous": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.dependsOn": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.executor": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.cwd": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
-    "targets.start.options.command": [
-      "apps/web-frontend/next.config.js",
-      "@nx/next/plugin"
-    ],
     "targets.serve-static": [
       "apps/web-frontend/next.config.js",
       "@nx/next/plugin"
@@ -2062,6 +2034,10 @@
       "apps/web-frontend/package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "apps/web-frontend/package.json",
       "nx/core/package-json"
@@ -2099,6 +2075,34 @@
       "nx/core/package-json"
     ],
     "targets.build.metadata.runCommand": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "apps/web-frontend/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
       "apps/web-frontend/package.json",
       "nx/core/package-json"
     ],

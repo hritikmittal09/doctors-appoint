@@ -8,7 +8,9 @@
 
   "scripts": {
 
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
+
 
   
 
