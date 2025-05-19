@@ -1,10 +1,29 @@
 {
+
   "name": "@hello-monorepo/web-frontend",
+
   "version": "0.0.1",
+
   "private": true,
+
+  "scripts": {
+
+    "build": "next build",
+
+    "start": "next start -p $PORT"
+
+  },
+
   "dependencies": {
+
     "next": "~15.2.4",
+
     "react": "19.0.0",
+
     "react-dom": "19.0.0"
+
   }
+
 }
+
+ 
