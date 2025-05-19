@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start-all": "nx run-many --targets=start,serve --projects=web-frontend,web-api --parallel",
-    "start-frontend": "npm run build --workspace=@hello-monorepo/web-frontend && npm run start --workspace=@hello-monorepo/web-frontend"
+    "start-frontend": "npm run build --workspace=@hello-monorepo/web-frontend && npm run start --workspace=@hello-monorepo/web-frontend",
+    "build:web-api": "nx build web-api",
+  "start:web-api": "node dist/apps/web-api/main.js"
   },
   "private": true,
   "dependencies": {

@@ -72,112 +72,67 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "15463045160619972942"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "9882362695153092473"
-      },
-      {
-        "file": "README.md",
-        "hash": "3885768571704366247"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11025232050410716590"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6820402234827505055"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "2336928227630864641"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "3237185977036824444"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "11532813898455409296"
-      },
-      {
         "file": ".vscode/extensions.json",
         "hash": "5271629927757201771"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "9032329230633554452"
       },
       {
         "file": "nx.json",
         "hash": "11497152232851182058"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "7473220183190921152"
+        "file": "tsconfig.base.json",
+        "hash": "3237185977036824444"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "2336928227630864641"
       },
       {
         "file": ".prettierignore",
         "hash": "17085498363870782104"
       },
       {
+        "file": "package.json",
+        "hash": "12337516365856364818"
+      },
+      {
+        "file": "README.md",
+        "hash": "3885768571704366247"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "9882362695153092473"
+      },
+      {
         "file": "package-lock.json",
         "hash": "8479272193095432723"
       },
       {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9032329230633554452"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11025232050410716590"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
         "file": "eslint.config.js",
         "hash": "3535604748181344684"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
       }
     ],
     "projectFileMap": {
-      "@hello-monorepo/web-frontend-e2e": [
-        {
-          "file": "apps/web-frontend-e2e/cypress.config.ts",
-          "hash": "852422891310827211",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/web-frontend-e2e/eslint.config.mjs",
-          "hash": "3599541132905828811",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/web-frontend-e2e/package.json",
-          "hash": "694516701026495398"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "12454600462021488371"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/fixtures/example.json",
-          "hash": "13882982864087580737"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/app.po.ts",
-          "hash": "5364106453863571025"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/commands.ts",
-          "hash": "6034007119807233486"
-        },
-        {
-          "file": "apps/web-frontend-e2e/src/support/e2e.ts",
-          "hash": "14369563060992369541"
-        },
-        {
-          "file": "apps/web-frontend-e2e/tsconfig.json",
-          "hash": "168887157171126392"
-        }
-      ],
       "hello-monorepo": [
         {
           "file": "apps/hello-monorepo/.swcrc",
@@ -313,86 +268,6 @@
           "hash": "5623794208198348967"
         }
       ],
-      "web-api": [
-        {
-          "file": "apps/web-api/eslint.config.js",
-          "hash": "17290109301117894707"
-        },
-        {
-          "file": "apps/web-api/jest.config.ts",
-          "hash": "9283436810988512747"
-        },
-        {
-          "file": "apps/web-api/project.json",
-          "hash": "12349239854878677855"
-        },
-        {
-          "file": "apps/web-api/src/app/app.controller.spec.ts",
-          "hash": "13081227780612210744",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/web-api/src/app/app.controller.ts",
-          "hash": "15954747971489977186",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/web-api/src/app/app.module.ts",
-          "hash": "6267817688893699713",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/web-api/src/app/app.service.spec.ts",
-          "hash": "18278639153968026239",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/web-api/src/app/app.service.ts",
-          "hash": "7653932249302388706",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/web-api/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/web-api/src/main.ts",
-          "hash": "1358881676789430954",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/web-api/tsconfig.app.json",
-          "hash": "17093487798195304766"
-        },
-        {
-          "file": "apps/web-api/tsconfig.json",
-          "hash": "7462419380158041776"
-        },
-        {
-          "file": "apps/web-api/tsconfig.spec.json",
-          "hash": "10658296909586689776"
-        },
-        {
-          "file": "apps/web-api/webpack.config.js",
-          "hash": "16064380045763533454",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
       "@hello-monorepo/web-frontend": [
         {
           "file": "apps/web-frontend/.swcrc",
@@ -429,7 +304,7 @@
         },
         {
           "file": "apps/web-frontend/package.json",
-          "hash": "15837721506010365998",
+          "hash": "6533028790327762530",
           "deps": [
             "npm:next",
             "npm:react",
@@ -530,6 +405,131 @@
         {
           "file": "apps/hello-monorepo-e2e/tsconfig.json",
           "hash": "1227863728543114460"
+        }
+      ],
+      "@hello-monorepo/web-frontend-e2e": [
+        {
+          "file": "apps/web-frontend-e2e/cypress.config.ts",
+          "hash": "852422891310827211",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/web-frontend-e2e/eslint.config.mjs",
+          "hash": "3599541132905828811",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/web-frontend-e2e/package.json",
+          "hash": "694516701026495398"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "12454600462021488371"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/fixtures/example.json",
+          "hash": "13882982864087580737"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/commands.ts",
+          "hash": "6034007119807233486"
+        },
+        {
+          "file": "apps/web-frontend-e2e/src/support/e2e.ts",
+          "hash": "14369563060992369541"
+        },
+        {
+          "file": "apps/web-frontend-e2e/tsconfig.json",
+          "hash": "168887157171126392"
+        }
+      ],
+      "web-api": [
+        {
+          "file": "apps/web-api/eslint.config.js",
+          "hash": "17290109301117894707"
+        },
+        {
+          "file": "apps/web-api/jest.config.ts",
+          "hash": "9283436810988512747"
+        },
+        {
+          "file": "apps/web-api/project.json",
+          "hash": "12349239854878677855"
+        },
+        {
+          "file": "apps/web-api/src/app/app.controller.spec.ts",
+          "hash": "13081227780612210744",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/web-api/src/app/app.controller.ts",
+          "hash": "15954747971489977186",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/web-api/src/app/app.module.ts",
+          "hash": "6267817688893699713",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/web-api/src/app/app.service.spec.ts",
+          "hash": "18278639153968026239",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/web-api/src/app/app.service.ts",
+          "hash": "7653932249302388706",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/web-api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/web-api/src/main.ts",
+          "hash": "1358881676789430954",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/web-api/tsconfig.app.json",
+          "hash": "17093487798195304766"
+        },
+        {
+          "file": "apps/web-api/tsconfig.json",
+          "hash": "7462419380158041776"
+        },
+        {
+          "file": "apps/web-api/tsconfig.spec.json",
+          "hash": "10658296909586689776"
+        },
+        {
+          "file": "apps/web-api/webpack.config.js",
+          "hash": "16064380045763533454",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ]
     }

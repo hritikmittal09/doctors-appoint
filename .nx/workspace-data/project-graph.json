@@ -746,28 +746,13 @@
         "root": "apps/web-frontend",
         "targets": {
           "build": {
-            "dependsOn": [
-              "^build"
-            ],
-            "cache": true,
-            "inputs": [
-              "default",
-              "^production",
-              {
-                "externalDependencies": [
-                  "next"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/apps/web-frontend/.next",
-              "{workspaceRoot}/apps/web-frontend/.next/!(cache)"
-            ],
-            "executor": "nx:run-commands",
+            "executor": "nx:run-script",
             "options": {
-              "cwd": "apps/web-frontend",
-              "tty": false,
-              "command": "next build"
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "next build",
+              "runCommand": "npm run build"
             },
             "configurations": {},
             "parallelism": true
@@ -783,14 +768,13 @@
             "parallelism": true
           },
           "start": {
-            "continuous": true,
-            "dependsOn": [
-              "build"
-            ],
-            "executor": "nx:run-commands",
+            "executor": "nx:run-script",
             "options": {
-              "cwd": "apps/web-frontend",
-              "command": "next start"
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "next start -p $PORT",
+              "runCommand": "npm run start"
             },
             "configurations": {},
             "parallelism": true
@@ -917,7 +901,12 @@
           "npm:private"
         ],
         "metadata": {
-          "targetGroups": {},
+          "targetGroups": {
+            "NPM Scripts": [
+              "build",
+              "start"
+            ]
+          },
           "js": {
             "packageName": "@hello-monorepo/web-frontend",
             "isInPackageManagerWorkspaces": true
@@ -40405,5 +40394,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1747492934618
+  "computedAt": 1747644189624
 }
